@@ -1,6 +1,23 @@
 {
-   "url": {
-      "name": "Navigation"
-   },
-   "constructor": "M.plugin.Navigation"
+  "url": {
+    "name": "navigation"
+  },
+  "constructor": "M.plugin.Navigation",
+  "files": {
+    "ol": {
+      "scripts": "navigation.ol.min.js",
+      "styles": "navigation.min.css"
+    }
+  },
+  "metadata": {
+    "name": "navigation",
+    "description": "Panel de navegación",
+    "text": "Plugin para Mapea que incorpora un panel que acepta otros controles que sean compatibles a nivel de diseño, y que pueden añadirse a través de un parámetro adicional en el constructor.",
+    "version": "1.0.0",
+    "date": "",
+    "author": "",
+    "org": "",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg"
+  }
 }

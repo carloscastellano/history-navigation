@@ -1,6 +1,0 @@
-{
-   "url": {
-      "name": "Navigation"
-   },
-   "constructor": "M.plugin.Navigation"
-}
